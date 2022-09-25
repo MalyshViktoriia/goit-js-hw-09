@@ -16,3 +16,37 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.input-wrapper {
+  width: 320px;
+  height: 100%;
+  display: flex;
+  margin-left: 15px;
+}
+
+.form-control {
+  width: 250px;
+}
+
+.btn {
+  margin-left: 15px;
+}
+
+.timer-wrapper {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.timer {
+  display: flex;
+  cursor: none;
+}
+
+.field:not(:last-child) {
+  margin-right: 5px;
+}
+
+span.value {
+  font-weight: bold;
+  color: rgb(219, 43, 190);
+}
